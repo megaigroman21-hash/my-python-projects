@@ -2,7 +2,7 @@ def is_valid_password(password):
     password = password.split(':')
     if len(password) != 3:
         return False
-    
+        
     if password[0] != password[0][::-1]:
         return False
 
