@@ -52,6 +52,6 @@ for symbol in text:
     else:
         new_text += symbol
             
-print('Ваш готовый текст', new_text, sep='\n')
+print('Ваш готовый текст:', new_text, sep='\n')
 print('Спасибо, что воспользовались моей программой.', 'До свидания)', sep='\n')
 
