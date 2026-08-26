@@ -2,7 +2,7 @@ from random import choices
 
 def generate_password(len_password, chars):
     password = choices(chars, k=len_password)
-    print(str(i) + ')', *password, sep='')
+    print(f"{i}) {''.join(password)}")
 
 
 digits = '0123456789'
